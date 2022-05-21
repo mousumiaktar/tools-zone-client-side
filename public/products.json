@@ -1,0 +1,183 @@
+[
+    {
+      "_id": "623853b2614ad5aba311fdd1",
+      "name": "Crimp Screwdriver",
+      "img": "https://i.ibb.co/zPw4JzP/neew12.jpg",
+      "description": "A slotted flat blade screwdriver is a long standard hand-tool dating back to the 1500s. It has a flat-bladed tip used to turn, fasten or loosen screws and bolts. The flat blade screwdriver is an extremely versatile tool and is used for fasteners of all sizes, providing significant leverage.",
+      "price": 14,
+      "Minimum":"500",
+      "available":"10,000"
+    },
+    {
+      "_id": "623853b2614ad5aba311fdd1",
+      "name": "plier Screwdriver",
+      "img": "https://i.ibb.co/HnD1pZq/new1.jpg",
+      "description": "A slotted flat blade screwdriver is a long standard hand-tool dating back to the 1500s. It has a flat-bladed tip used to turn, fasten or loosen screws and bolts. The flat blade screwdriver is an extremely versatile tool and is used for fasteners of all sizes, providing significant leverage.",
+      "price": 14,
+      "Minimum":"500",
+      "available":"10,000"
+    },
+    {
+      "_id": "623853b2614ad5aba311fdd1",
+      "name": "scissors Screwdriver",
+      "img": "https://i.ibb.co/QCJCm6r/new2.png",
+      "description": "A slotted flat blade screwdriver is a long standard hand-tool dating back to the 1500s. It has a flat-bladed tip used to turn, fasten or loosen screws and bolts. The flat blade screwdriver is an extremely versatile tool and is used for fasteners of all sizes, providing significant leverage.",
+      "price": 14,
+      "Minimum":"500",
+      "available":"10,000"
+    },
+    {
+      "_id": "623853b2614ad5aba311fdd1",
+      "name": "Circlip Screwdriver",
+      "img": "https://i.ibb.co/DV2nsmP/new3.jpg",
+      "description": "A slotted flat blade screwdriver is a long standard hand-tool dating back to the 1500s. It has a flat-bladed tip used to turn, fasten or loosen screws and bolts. The flat blade screwdriver is an extremely versatile tool and is used for fasteners of all sizes, providing significant leverage.",
+      "price": 14,
+      "Minimum":"500",
+      "available":"10,000"
+    },
+    {
+      "_id": "623853b2614ad5aba311fdd1",
+      "name": " Penknife Screwdriver",
+      "img": "https://i.ibb.co/WfS5RpT/new4.jpg",
+      "description": "A slotted flat blade screwdriver is a long standard hand-tool dating back to the 1500s. It has a flat-bladed tip used to turn, fasten or loosen screws and bolts. The flat blade screwdriver is an extremely versatile tool and is used for fasteners of all sizes, providing significant leverage.",
+      "price": 14,
+      "Minimum":"500",
+      "available":"10,000"
+    },
+    {
+      "_id": "623853b2614ad5aba311fdd1",
+      "name": "Spanner Screwdriver",
+      "img": "https://i.ibb.co/5nXTW9k/new5.png",
+      "description": "A slotted flat blade screwdriver is a long standard hand-tool dating back to the 1500s. It has a flat-bladed tip used to turn, fasten or loosen screws and bolts. The flat blade screwdriver is an extremely versatile tool and is used for fasteners of all sizes, providing significant leverage.",
+      "price": 14,
+      "Minimum":"500",
+      "available":"10,000"
+    },
+    {
+      "_id": "623853b2614ad5aba311fdd1",
+      "name": "Hacksaw Screwdriver",
+      "img": "https://i.ibb.co/PYnpVYP/new6.jpg",
+      "description": "A slotted flat blade screwdriver is a long standard hand-tool dating back to the 1500s. It has a flat-bladed tip used to turn, fasten or loosen screws and bolts. The flat blade screwdriver is an extremely versatile tool and is used for fasteners of all sizes, providing significant leverage.",
+      "price": 14,
+      "Minimum":"500",
+      "available":"10,000"
+    },
+    {
+      "_id": "623853b2614ad5aba311fdd1",
+      "name": "Crowbar Screwdriver",
+      "img": "https://i.ibb.co/ZGJWx1R/new7.jpg",
+      "description": "A slotted flat blade screwdriver is a long standard hand-tool dating back to the 1500s. It has a flat-bladed tip used to turn, fasten or loosen screws and bolts. The flat blade screwdriver is an extremely versatile tool and is used for fasteners of all sizes, providing significant leverage.",
+      "price": 14,
+      "Minimum":"500",
+      "available":"10,000"
+    },
+    {
+      "_id": "623853b2614ad5aba311fdd1",
+      "name": "Crimp Screwdriver",
+      "img": "https://i.ibb.co/mzS2Hfb/new8.jpg",
+      "description": "A slotted flat blade screwdriver is a long standard hand-tool dating back to the 1500s. It has a flat-bladed tip used to turn, fasten or loosen screws and bolts. The flat blade screwdriver is an extremely versatile tool and is used for fasteners of all sizes, providing significant leverage.",
+      "price": 14,
+      "Minimum":"500",
+      "available":"10,000"
+    },
+    {
+      "_id": "623853b2614ad5aba311fdd1",
+      "name": "Plier Screwdriver",
+      "img": "https://i.ibb.co/bW4TJCV/new9.jpg",
+      "description": "A slotted flat blade screwdriver is a long standard hand-tool dating back to the 1500s. It has a flat-bladed tip used to turn, fasten or loosen screws and bolts. The flat blade screwdriver is an extremely versatile tool and is used for fasteners of all sizes, providing significant leverage.",
+      "price": 14,
+      "Minimum":"500",
+      "available":"10,000"
+    },
+    {
+      "_id": "623853b2614ad5aba311fdd1",
+      "name": "Crimp Screwdriver",
+      "img": "https://i.ibb.co/fvcqPtL/new10.jpg",
+      "description": "A slotted flat blade screwdriver is a long standard hand-tool dating back to the 1500s. It has a flat-bladed tip used to turn, fasten or loosen screws and bolts. The flat blade screwdriver is an extremely versatile tool and is used for fasteners of all sizes, providing significant leverage.",
+      "price": 14,
+      "Minimum":"500",
+      "available":"10,000"
+    },
+    {
+      "_id": "623853b2614ad5aba311fdd1",
+      "name": "screw Screwdriver",
+      "img": "https://i.ibb.co/M93TpLB/new11.jpg",
+      "description": "A slotted flat blade screwdriver is a long standard hand-tool dating back to the 1500s. It has a flat-bladed tip used to turn, fasten or loosen screws and bolts. The flat blade screwdriver is an extremely versatile tool and is used for fasteners of all sizes, providing significant leverage.",
+      "price": 14,
+      "Minimum":"500",
+      "available":"10,000"
+    },
+    {
+      "_id": "623853b2614ad5aba311fdd1",
+      "name": "Crimp Screwdriver",
+      "img": "https://i.ibb.co/KjLqXvZ/new13.jpg",
+      "description": "A slotted flat blade screwdriver is a long standard hand-tool dating back to the 1500s. It has a flat-bladed tip used to turn, fasten or loosen screws and bolts. The flat blade screwdriver is an extremely versatile tool and is used for fasteners of all sizes, providing significant leverage.",
+      "price": 14,
+      "Minimum":"500",
+      "available":"10,000"
+    },
+    {
+      "_id": "623853b2614ad5aba311fdd1",
+      "name": "Crimp Screwdriver",
+      "img": "https://i.ibb.co/6s2cLTF/new14.jpg",
+      "description": "A slotted flat blade screwdriver is a long standard hand-tool dating back to the 1500s. It has a flat-bladed tip used to turn, fasten or loosen screws and bolts. The flat blade screwdriver is an extremely versatile tool and is used for fasteners of all sizes, providing significant leverage.",
+      "price": 14,
+      "Minimum":"500",
+      "available":"10,000"
+    },
+    {
+      "_id": "623853b2614ad5aba311fdd1",
+      "name": "Crimp Screwdriver",
+      "img": "https://i.ibb.co/S7r8yJQ/new15.jpg",
+      "description": "A slotted flat blade screwdriver is a long standard hand-tool dating back to the 1500s. It has a flat-bladed tip used to turn, fasten or loosen screws and bolts. The flat blade screwdriver is an extremely versatile tool and is used for fasteners of all sizes, providing significant leverage.",
+      "price": 14,
+      "Minimum":"500",
+      "available":"10,000"
+    },
+    {
+      "_id": "623853b2614ad5aba311fdd1",
+      "name": "Crimp Screwdriver",
+      "img": "https://i.ibb.co/ngC8Qvz/new16.jpg",
+      "description": "A slotted flat blade screwdriver is a long standard hand-tool dating back to the 1500s. It has a flat-bladed tip used to turn, fasten or loosen screws and bolts. The flat blade screwdriver is an extremely versatile tool and is used for fasteners of all sizes, providing significant leverage.",
+      "price": 14,
+      "Minimum":"500",
+      "available":"10,000"
+    },
+    {
+      "_id": "623853b2614ad5aba311fdd1",
+      "name": "Crimp Screwdriver",
+      "img": "https://i.ibb.co/8dd9g6p/new17.jpg",
+      "description": "A slotted flat blade screwdriver is a long standard hand-tool dating back to the 1500s. It has a flat-bladed tip used to turn, fasten or loosen screws and bolts. The flat blade screwdriver is an extremely versatile tool and is used for fasteners of all sizes, providing significant leverage.",
+      "price": 14,
+      "Minimum":"500",
+      "available":"10,000"
+    },
+    {
+      "_id": "623853b2614ad5aba311fdd1",
+      "name": "Crimp Screwdriver",
+      "img": "https://i.ibb.co/YLcGFNY/new18.jpg",
+      "description": "A slotted flat blade screwdriver is a long standard hand-tool dating back to the 1500s. It has a flat-bladed tip used to turn, fasten or loosen screws and bolts. The flat blade screwdriver is an extremely versatile tool and is used for fasteners of all sizes, providing significant leverage.",
+      "price": 14,
+      "Minimum":"500",
+      "available":"10,000"
+    },
+    {
+      "_id": "623853b2614ad5aba311fdd1",
+      "name": "Crimp Screwdriver",
+      "img": "https://i.ibb.co/fdg9Lyn/new19.jpg",
+      "description": "A slotted flat blade screwdriver is a long standard hand-tool dating back to the 1500s. It has a flat-bladed tip used to turn, fasten or loosen screws and bolts. The flat blade screwdriver is an extremely versatile tool and is used for fasteners of all sizes, providing significant leverage.",
+      "price": 14,
+      "Minimum":"500",
+      "available":"10,000"
+    },
+    {
+      "_id": "623853b2614ad5aba311fdd1",
+      "name": "Crimp Screwdriver",
+      "img": "https://i.ibb.co/hdcMm22/new20.jpg",
+      "description": "A slotted flat blade screwdriver is a long standard hand-tool dating back to the 1500s. It has a flat-bladed tip used to turn, fasten or loosen screws and bolts. The flat blade screwdriver is an extremely versatile tool and is used for fasteners of all sizes, providing significant leverage.",
+      "price": 14,
+      "Minimum":"500",
+      "available":"10,000"
+    }
+    
+  ]
