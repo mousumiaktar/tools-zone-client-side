@@ -9,16 +9,16 @@ const Summery = () => {
             <div class="divider">Or</div>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5'  id="summery-container">
                 <div>
-                    <h3>72</h3>
-                    <p>Countries</p>
+                    <h3>100+</h3>
+                    <p>Served</p>
                 </div>
                 <div>
                     <h3>535+</h3>
-                    <p>Complete Projects</p>
+                    <p>Reviews</p>
                 </div>
                 <div>
-                    <h3>273+</h3>
-                    <p>Happy Clients</p>
+                    <h3>120M+</h3>
+                    <p>Customers</p>
                 </div>
                 <div>
                     <h3>432+</h3>
