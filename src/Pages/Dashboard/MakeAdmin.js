@@ -1,12 +1,16 @@
-import React from 'react';
-import Loading from '../Shared/Loading/Loading';
-import { useQuery } from 'react-query';
+import React, { useEffect, useState } from 'react';
 
 const MakeAdmin = () => {
-    const { data: users, isLoading } = useQuery('users', () => fetch('http://localhost:5000/user').then(res => res.json()));
-    if (isLoading) {
-        return <Loading></Loading>
-    }
+    // const { data: users, isLoading } = useQuery('users', () => fetch('http://localhost:5000/user').then(res => res.json()));
+    // if (isLoading) {
+    //     return <Loading></Loading>
+    // }
+    const [users, setUsers] = useState([]);
+    useEffect(() => {
+        fetch('http://localhost:5000/user')
+        .then(res => res.json())
+        .then(data => setUsers(data));
+    },[users]);
     console.log(users);
     const makeAdmin = email => {
         fetch(`http://localhost:5000/user/admin/${email}`, {

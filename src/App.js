@@ -5,9 +5,11 @@ import Dashboard from './Pages/Dashboard/Dashboard';
 import MakeAdmin from './Pages/Dashboard/MakeAdmin';
 import MyOrders from './Pages/Dashboard/MyOrders';
 import MyProfile from './Pages/Dashboard/MyProfile';
+import Wellcome from './Pages/Dashboard/Wellcome';
 import Home from './Pages/Home/Home';
 import Login from './Pages/Login/Login';
 import Purchase from './Pages/Purchase/Purchase';
+import RequireAdmin from './Pages/RequireAuth/RequireAdmin';
 import RequireAuth from './Pages/RequireAuth/RequireAuth';
 import Footer from './Pages/Shared/Footer/Footer';
 import Navbar from './Pages/Shared/Navbar';
@@ -31,10 +33,15 @@ function App() {
               <Dashboard></Dashboard>
             </RequireAuth>
           }>
-              <Route index element={<MyOrders></MyOrders>}></Route>
-              <Route path="addreview" element={<AddReview></AddReview>}></Route>
-              <Route path="myprofile" element={<MyProfile></MyProfile>}></Route>
-              <Route path="makeadmin" element={<MakeAdmin></MakeAdmin>}></Route>
+            <Route index element={<Wellcome></Wellcome>}></Route>
+            <Route path="myorders" element={<MyOrders></MyOrders>}></Route>
+            <Route path="addreview" element={<AddReview></AddReview>}></Route>
+            <Route path="myprofile" element={<MyProfile></MyProfile>}></Route>
+            <Route path="makeadmin" element={
+              <RequireAdmin>
+                <MakeAdmin></MakeAdmin>
+              </RequireAdmin>
+            }></Route>
           </Route>
           <Route path="/login" element={<Login></Login>}></Route>
           <Route path="/signup" element={<SignUp></SignUp>}></Route>
