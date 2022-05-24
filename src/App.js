@@ -2,6 +2,7 @@ import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import AddReview from './Pages/Dashboard/AddReview';
 import Dashboard from './Pages/Dashboard/Dashboard';
+import MakeAdmin from './Pages/Dashboard/MakeAdmin';
 import MyOrders from './Pages/Dashboard/MyOrders';
 import MyProfile from './Pages/Dashboard/MyProfile';
 import Home from './Pages/Home/Home';
@@ -33,6 +34,7 @@ function App() {
               <Route index element={<MyOrders></MyOrders>}></Route>
               <Route path="addreview" element={<AddReview></AddReview>}></Route>
               <Route path="myprofile" element={<MyProfile></MyProfile>}></Route>
+              <Route path="makeadmin" element={<MakeAdmin></MakeAdmin>}></Route>
           </Route>
           <Route path="/login" element={<Login></Login>}></Route>
           <Route path="/signup" element={<SignUp></SignUp>}></Route>
