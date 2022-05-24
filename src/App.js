@@ -14,6 +14,7 @@ import RequireAuth from './Pages/RequireAuth/RequireAuth';
 import Footer from './Pages/Shared/Footer/Footer';
 import Navbar from './Pages/Shared/Navbar';
 import SignUp from './Pages/SignUp/SignUp';
+import AllTools from './Pages/Tools/AllTools';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home></Home>}></Route>
           <Route path="/home" element={<Home></Home>}></Route>
+          <Route path="/tools" element={<AllTools></AllTools>}></Route>
           <Route path="/purchase/:purchaseId" element={
             <RequireAuth>
               <Purchase></Purchase>
