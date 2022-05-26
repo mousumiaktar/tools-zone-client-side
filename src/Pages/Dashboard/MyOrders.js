@@ -76,16 +76,13 @@ const MyOrders = () => {
                             <th>{index + 1}</th>
                             <th>{d.productName}</th>
                             <td>{d.orderQuantity}</td>
-                            {/* <td>{'$' + d.price}</td> */}
                             <td>
                                     {(d.price && !d.paid) && <Link to={`/dashboard/payment/${d._id}`}><button className='btn btn-xs btn-success'>pay</button></Link>}
                                     {(d.price && d.paid) && <div>
                                         <p><span className='text-primary'>Paid</span></p>
-                                        <p>Transaction id: <span className='text-success'>{d.transactionId}</span></p>
+                                        <p><span className='text-success'>{d.transactionId}</span></p>
                                     </div>}
                                 </td>
-
-                            {/* <td><button className='btn btn-sm'>pay</button></td> */}
                             <td><button
                             onClick={() => handleDelete(d._id)}
                                 className='btn btn-sm'>Delete</button></td>
