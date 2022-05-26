@@ -16,6 +16,8 @@ const Navbar = () => {
     const menuItems = <>
         <li><Link to="/home">Home</Link></li>
         <li><Link to="/tools">Tools</Link></li>
+        <li><Link to="/blog">Blog</Link></li>
+        <li><Link to="/portfolio">Portfolio</Link></li>
         {
             user && <li><Link to="/dashboard">Dashboard</Link></li>
         }
@@ -24,7 +26,7 @@ const Navbar = () => {
 
 
     return (
-        <div class="navbar bg-purple-400">
+        <div class="navbar bg-purple-600">
             <div class="navbar-start">
                 <div class="dropdown">
                     <label tabindex="0" class="btn btn-ghost lg:hidden">

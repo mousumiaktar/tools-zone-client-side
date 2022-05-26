@@ -7,7 +7,7 @@ const MyTools = () => {
         <div>
             <Tools isSlice="true"></Tools>
             <br />
-            <Link to="/tools"><button class="btn btn-xl">See More...</button></Link>
+            <Link to="/tools"><button class="btn btn-xl ml-48">See More...</button></Link>
         </div>
     );
 };

@@ -2,6 +2,8 @@
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     padding: 30px 20px;
     text-align: center;
+    border-bottom: 5px solid blueviolet;
+    
 }
 #summery-container h3{
     font-size: 30px;
@@ -9,4 +11,7 @@
 }
 #summery-container p{
    color: blueviolet;
+}
+.single-summery{
+    border-right: 1px solid blueviolet;
 }

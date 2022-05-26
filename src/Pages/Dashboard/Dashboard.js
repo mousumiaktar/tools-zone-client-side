@@ -8,7 +8,7 @@ const Dashboard = () => {
     const [user] = useAuthState(auth);
     const [admin] =useAdmin(user)
     return (
-        <div class="drawer drawer-mobile">
+        <div class="drawer drawer-mobile mt-10 mb-15 max-w-7xl mx-auto px-12">
             <input id="dashboard-sidebar" type="checkbox" class="drawer-toggle" />
             <div class="drawer-content">
                 {/* <!-- Page content here --> */}
@@ -23,9 +23,13 @@ const Dashboard = () => {
 
                     {!admin ? <><li><Link to="/dashboard/myorders">My Orders</Link></li>
                     <li><Link to="/dashboard/addreview">Add Review</Link></li>
+                    <li><Link to="/dashboard/addproduct">Add Product</Link></li>
+                    <li><Link to="/dashboard/manageproducts">Manage Products</Link></li>
                     </>
                     :
-                    <li><Link to="/dashboard/makeadmin">Make Admin</Link></li>}
+                    <li><Link to="/dashboard/makeadmin">Make Admin</Link></li>
+                    
+                    }
                     
                 </ul>
 

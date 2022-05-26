@@ -1,13 +1,18 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import Blog from './Pages/Blog';
+import AddProduct from './Pages/Dashboard/AddProduct';
 import AddReview from './Pages/Dashboard/AddReview';
 import Dashboard from './Pages/Dashboard/Dashboard';
 import MakeAdmin from './Pages/Dashboard/MakeAdmin';
+import ManageProducts from './Pages/Dashboard/ManageProducts';
 import MyOrders from './Pages/Dashboard/MyOrders';
 import MyProfile from './Pages/Dashboard/MyProfile';
 import Wellcome from './Pages/Dashboard/Wellcome';
 import Home from './Pages/Home/Home';
 import Login from './Pages/Login/Login';
+import NotFound from './Pages/NotFound/NotFound';
+import Portfolio from './Pages/Portfolio';
 import Purchase from './Pages/Purchase/Purchase';
 import RequireAdmin from './Pages/RequireAuth/RequireAdmin';
 import RequireAuth from './Pages/RequireAuth/RequireAuth';
@@ -20,11 +25,13 @@ function App() {
   return (
     <div>
       <Navbar></Navbar>
-      <div className='max-w-7xl mx-auto px-12'>
+      <div>
         <Routes>
           <Route path="/" element={<Home></Home>}></Route>
           <Route path="/home" element={<Home></Home>}></Route>
           <Route path="/tools" element={<AllTools></AllTools>}></Route>
+          <Route path="/blog" element={<Blog></Blog>}></Route>
+          <Route path="/portfolio" element={<Portfolio></Portfolio>}></Route>
           <Route path="/purchase/:purchaseId" element={
             <RequireAuth>
               <Purchase></Purchase>
@@ -39,6 +46,8 @@ function App() {
             <Route path="myorders" element={<MyOrders></MyOrders>}></Route>
             <Route path="addreview" element={<AddReview></AddReview>}></Route>
             <Route path="myprofile" element={<MyProfile></MyProfile>}></Route>
+            <Route path="addproduct" element={<AddProduct></AddProduct>}></Route>
+            <Route path="manageproducts" element={<ManageProducts></ManageProducts>}></Route>
             <Route path="makeadmin" element={
               <RequireAdmin>
                 <MakeAdmin></MakeAdmin>
@@ -47,6 +56,7 @@ function App() {
           </Route>
           <Route path="/login" element={<Login></Login>}></Route>
           <Route path="/signup" element={<SignUp></SignUp>}></Route>
+          <Route path="*" element={<NotFound></NotFound>}></Route>
         </Routes>
       </div>
       <Footer></Footer>

@@ -1,10 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
 const MakeAdmin = () => {
-    // const { data: users, isLoading } = useQuery('users', () => fetch('http://localhost:5000/user').then(res => res.json()));
-    // if (isLoading) {
-    //     return <Loading></Loading>
-    // }
     const [users, setUsers] = useState([]);
     useEffect(() => {
         fetch('http://localhost:5000/user')

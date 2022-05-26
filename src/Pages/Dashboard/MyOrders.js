@@ -31,7 +31,30 @@ const MyOrders = () => {
                     // console.log(data);
                 });
         }
-    }, [user])
+    }, [user]);
+
+
+
+
+    const handleDelete = id => {
+        const sure = window.confirm('Do you want to delete?')
+        if(sure){
+            const url = `http://localhost:5000/orders/${id}`
+            fetch(url, {
+                method: 'DELETE',
+            })
+            .then(res=>res.json())
+            .then(data => {
+               if(data.deletedCount > 0){
+                   console.log('deleted');
+                   const remaining = orders.filter(order =>order._id  !== id);
+                   setOrders(remaining);
+               }
+            })
+        }
+    }
+
+
 
     return (
         <div class="overflow-x-auto m-10">
@@ -56,6 +79,7 @@ const MyOrders = () => {
                             <td>{'$' + d.price}</td>
                             <td><button className='btn btn-sm'>pay</button></td>
                             <td><button
+                            onClick={() => handleDelete(d._id)}
                                 className='btn btn-sm'>Delete</button></td>
                         </tr>)
                     }
