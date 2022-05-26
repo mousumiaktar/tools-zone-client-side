@@ -34,6 +34,7 @@ const Profile = () => {
                             </p>
                         </p>
                     </div>
+                    <br />
                     <div>
                         <p><b>Laptop Production House:</b> <br />
                             <b>Descriptio:</b>

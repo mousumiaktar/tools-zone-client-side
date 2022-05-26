@@ -1,4 +1,5 @@
 import { Route, Routes } from 'react-router-dom';
+import { ToastContainer } from 'react-toastify';
 import './App.css';
 import Blog from './Pages/Blog';
 import AddProduct from './Pages/Dashboard/AddProduct';
@@ -8,6 +9,8 @@ import MakeAdmin from './Pages/Dashboard/MakeAdmin';
 import ManageProducts from './Pages/Dashboard/ManageProducts';
 import MyOrders from './Pages/Dashboard/MyOrders';
 import MyProfile from './Pages/Dashboard/MyProfile';
+import Payment from './Pages/Dashboard/Payment';
+import UpdateProfile from './Pages/Dashboard/UpdateProfile';
 import Wellcome from './Pages/Dashboard/Wellcome';
 import Home from './Pages/Home/Home';
 import Login from './Pages/Login/Login';
@@ -44,7 +47,9 @@ function App() {
           }>
             <Route index element={<Wellcome></Wellcome>}></Route>
             <Route path="myorders" element={<MyOrders></MyOrders>}></Route>
+            <Route path="updateprofile" element={<UpdateProfile></UpdateProfile>}></Route>
             <Route path="addreview" element={<AddReview></AddReview>}></Route>
+            <Route path="payment/:id" element={<Payment></Payment>}></Route>
             <Route path="myprofile" element={<MyProfile></MyProfile>}></Route>
             <Route path="addproduct" element={<AddProduct></AddProduct>}></Route>
             <Route path="manageproducts" element={<ManageProducts></ManageProducts>}></Route>

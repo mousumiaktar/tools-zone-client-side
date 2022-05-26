@@ -9,6 +9,23 @@ const ManageProducts = () => {
     if (isLoading) {
         return <Loading />
     }
+
+    const handleDelete = id => {
+        const sure = window.confirm('Are You Sure?')
+        if (sure) {
+            const url = `http://localhost:5000/tool/${id}`
+            fetch(url, {
+                method: 'DELETE',
+            })
+                .then(res => res.json())
+                .then(data => {
+                    console.log(data);
+                })
+        }
+
+    }
+
+
     return (
         <div class="overflow-x-auto">
             <table class="table w-full">
@@ -29,7 +46,11 @@ const ManageProducts = () => {
                             <td>${p.price}</td>
                             <td>{p.available}</td>
                             <td>{p.Minimum}</td>
-                            <td><button class="btn btn-sm">UPDATE</button></td>
+                            <td><button
+                                onClick={() => handleDelete(p._id)}
+                                className="btn btn-sm">
+                                DELETE
+                            </button></td>
                         </tr>)
                     }
 

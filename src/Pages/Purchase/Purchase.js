@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import toast, { Toaster } from 'react-hot-toast';
 import { useParams } from 'react-router-dom';
 import PurchaseModal from './PurchaseModal';
 
@@ -23,33 +24,31 @@ const Purchase = () => {
         e.preventDefault()
         const inputValue = e.target.quantity.value;
         setTotal(inputValue)
-        
-        // if (inputValue < details.Minimum) {
-        //     toast.error(Quantity Must Be )
-        // }
-        // else if (inputValue > details.available) {
-        //     toast.error(You Can't Order More Than Stock)
-        // }
-        // else {
-        //     toast.success('Congretulation')
-        // }
-        
+
+        if (parseInt(inputValue) < parseInt(purchase.Minimum)) {
+            toast.error(`Quantity Must Be equal minimum`)
+        }
+        else if (parseInt(inputValue) > parseInt(purchase.available)) {
+            toast.error(`You Can't Order More Than Stock`)
+        }
+
     }
 
 
     return (
-        <div class="">
+        <div class="mt-10 mb-15 max-w-7xl mx-auto px-12">
             <div class="hero-content flex-col lg:flex-row">
                 <img className='rounded' src={purchase.img} />
                 <div>
-                    <h1 class="text-5xl font-bold">{purchase.name}</h1>
+                    <h1 class="text-2xl font-bold text-purple-900">{purchase.name}</h1>
                     <p class="py-6">{purchase.description}</p>
-                    <p><small>Price: ${purchase.price}</small></p>
-                    <p><small>Minimum order Quantity: {purchase.Minimum}</small></p>
-                    <p><small>Available Quantity: {purchase.available}</small></p>
-                    <p className='mt-5'>Add Quantity</p>
+                    <p><b>Price:</b> ${purchase.price}</p>
+                    <p><b>Minimum order Quantity:</b> {purchase.Minimum}</p>
+                    <p><b>Available Quantity:</b> {purchase.available}</p>
+                    <div className='bg-purple-400 p-5 rounded-xl'>
+                        <p className='mt-5'>Add Quantity</p>
                         <form onSubmit={handleQuantity}>
-                            <input className='border' type="number" name="quantity" id="" />
+                            <input className='border rounded mr-5' type="number" name="quantity" id="" />
                             <input type="submit" className='btn btn-outline btn-xs' value='Add' id="" />
                         </form>
                         <br />
@@ -66,11 +65,13 @@ const Purchase = () => {
                                     class="btn btn-outline btn-sm">PURCHASE
                                 </label>
                         }
+                    </div>
                 </div>
             </div>
             {
                 purchase && <PurchaseModal orderQuantity={orderQuantity} details={purchase} ></PurchaseModal>
             }
+            <Toaster />
         </div>
     );
 };
