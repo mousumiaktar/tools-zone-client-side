@@ -15,7 +15,7 @@ const AddProduct = () => {
             img: e.target.img.value
         }
 
-        fetch('http://localhost:5000/tool', {
+        fetch('https://stormy-anchorage-56703.herokuapp.com/tool', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

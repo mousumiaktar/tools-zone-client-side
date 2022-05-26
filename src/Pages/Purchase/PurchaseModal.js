@@ -18,7 +18,7 @@ const PurchaseModal = ({ details, orderQuantity }) => {
 
         }
         console.log(orderDetails);
-        const url = 'http://localhost:5000/orders'
+        const url = 'https://stormy-anchorage-56703.herokuapp.com/orders'
         fetch(url, {
             method: 'POST',
             headers: {
