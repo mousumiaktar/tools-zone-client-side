@@ -20,12 +20,12 @@ const Reviews = () => {
             <div className='flex  justify-center'>
                 {/* <img src={divider} alt="" /> */}
             </div>
-            <div className='grid grid-cols-1 lg:grid-cols-3 px-32 bg-purple-600 rounded'>
+            <div className='px-32 bg-purple-600 rounded'>
 
                 {
                     data?.map(d => <div class="card-body">
 
-                        <div class="card border p-5 text-white rounded ">
+                        <div class="card border p-5 text-white rounded grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
                             <h3 className='mt-5'>{d.name}</h3>
                             <p>{d.review}</p>
                             <small className='mt-3'>rating: {d.rating}</small>
