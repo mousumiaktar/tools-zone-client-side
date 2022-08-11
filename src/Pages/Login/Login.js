@@ -116,6 +116,10 @@ const Login = () => {
                         onClick={() => signInWithGoogle()}
                         className="btn btn-outline"
                     >Continue with google</button>
+                    <div className='pt-7 flex flex-row justify-between items-center'>
+                        <button onClick={() => signInWithEmailAndPassword('admin@gmail.com','112233')} className='py-2 px-4 bg-purple-500 text-slate-50 mr-5 rounded-md'>Demo Login - Admin</button>
+                        <button onClick={() => signInWithEmailAndPassword('mou@gmail.com', '123456')} className='py-2 px-4 bg-purple-500 text-slate-50 rounded-md'>Demo Login - User</button>
+                    </div>
                 </div>
             </div>
         </div>
