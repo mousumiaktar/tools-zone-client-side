@@ -1,12 +1,15 @@
 .hero-area {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 100px;
+    grid-gap: 50px;
     margin: 30px 0 100px 0;
 }
 
 .hero-textarea {
-    margin-left: 125px;
+    margin-left: 200px;
+}
+.image-area{
+    margin-left: 100px;
 }
 
 .hero-textarea h2 {

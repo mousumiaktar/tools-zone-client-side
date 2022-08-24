@@ -13,7 +13,7 @@ const Summery = () => {
             <p className='text-center'>TRY TO UNDERSTAND USERS EXPECTATION</p>
             <div class="divider">Or</div>
             <div>
-                <img src={summeryimg} alt="" />
+                <img style={{width:'100%'}} src={summeryimg} alt="" />
             </div>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5' id="summery-container">
                 <div className='single-summery'>
