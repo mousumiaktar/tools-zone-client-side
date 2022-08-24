@@ -55,6 +55,9 @@
 
 
 @media screen and (max-width: 600px) {
+    .main-area{
+        margin: 0 50px;
+    }
     .hero-area {
         display: block;
     }
@@ -62,17 +65,18 @@
         display: block;
     }
     .hero-textarea {
-        margin-left: 30px;
-        margin-right: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
     .image-area{
         margin-top: 10px;
     }
     .image-1 {
-        width: 200px;
-       margin-left: 30px;
+       width: 200px;
+       margin-left: 15px;
     }
     .image-2 {
         width: 200px;
+        margin-right: 30px;
     }
 }

@@ -9,7 +9,7 @@ import summeryimg from '../../images/summery/summery.png';
 const Summery = () => {
     return (
         <div className='mt-10 mb-15  px-12 full-summery'>
-            <h2 style={{color:'#2F3B69'}} className='text-4xl text-center font-bold'>MILLIONS BUSINESS TRUST US</h2>
+            <h2 className='text-4xl text-center font-bold text-[#2F3B69]'>MILLIONS BUSINESS TRUST US</h2>
             <p className='text-center'>TRY TO UNDERSTAND USERS EXPECTATION</p>
             <div class="divider">Or</div>
             <div className='summery-image'>

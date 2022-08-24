@@ -17,15 +17,15 @@ const Reviews = () => {
     return (
         <div className='my-10 max-w-7xl mx-auto px-12'>
             <div style={{color:'#2F3B69'}} className="text-center text-4xl font-bold mb-5">What Our Client Says</div>
-            <div className='flex  justify-center'>
+            <div className='flex justify-center'>
                 {/* <img src={divider} alt="" /> */}
             </div>
-            <div className='px-32 rounded grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'>
+            <div className=' rounded grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'>
 
                 {
                     data?.map(d => <div class="card-body">
 
-                        <div style={{background:'#1586B5'}} class="card border p-5 text-white rounded">
+                        <div class="card bg-[#1586B5] border p-5 text-white rounded">
                             <h3>{d.name}</h3>
                             <p>{d.review}</p>
                             <small className='mt-3'>rating: {d.rating}</small>
