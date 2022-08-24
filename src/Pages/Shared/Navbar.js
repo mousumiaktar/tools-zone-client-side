@@ -26,7 +26,7 @@ const Navbar = () => {
 
 
     return (
-        <div class="navbar bg-purple-600">
+        <div style={{background:'#2F3B69'}} class="navbar">
             <div class="navbar-start">
                 <div class="dropdown">
                     <label tabindex="0" class="btn btn-ghost lg:hidden">

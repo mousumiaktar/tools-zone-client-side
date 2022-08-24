@@ -17,7 +17,7 @@ const Tools = ({isSlice}) => {
     }
     return (
         <div className='max-w-7xl mx-auto px-12'>
-           <h2  className='max-w-7xl mx-auto px-12 text-center text-xl font-bold text-purple-800 mt-5 mb-5'><u>OUR TOOLS</u></h2> 
+           <h2 style={{color:'#2F3B69', marginBottom:'100px'}}  className='max-w-7xl mx-auto px-12 text-center text-5xl font-bold mt-5 mb-5'>OUR TOOLS</h2> 
            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'>
                {
                   newTools.map(tool=><Tool

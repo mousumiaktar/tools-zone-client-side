@@ -40,17 +40,23 @@ const Purchase = () => {
             <div class="hero-content flex-col lg:flex-row">
                 <img className='rounded' src={purchase.img} />
                 <div>
-                    <h1 class="text-2xl font-bold text-purple-900">{purchase.name}</h1>
-                    <p class="py-6">{purchase.description}</p>
-                    <p><b>Price:</b> ${purchase.price}</p>
-                    <p><b>Minimum order Quantity:</b> {purchase.Minimum}</p>
-                    <p><b>Available Quantity:</b> {purchase.available}</p>
-                    <div className='bg-purple-400 p-5 rounded-xl'>
+                    <div className='ml-5'>
+                        <h1 style={{ color: '#2F3B69' }} class="text-2xl font-bold ">{purchase.name}</h1>
+                        <p class="py-6">{purchase.description}</p>
+                        <hr />
+                        <p className='mt-3'><i>Price:</i> ${purchase.price}</p>
+                        <p><i>Minimum order Quantity:</i> {purchase.Minimum}</p>
+                        <p><i>Available Quantity:</i> {purchase.available}</p>
+                    </div>
+                    <div className='p-5 rounded-xl'>
                         <p className='mt-5'>Add Quantity</p>
+
                         <form onSubmit={handleQuantity}>
-                            <input className='border rounded mr-5' type="number" name="quantity" id="" />
-                            <input type="submit" className='btn btn-outline btn-xs' value='Add' id="" />
+                            <input style={{ background: '#1586B5' }} className='border rounded mr-5' type="number" name="quantity" id="" />
+
+                            <input style={{ background: '#2F3B69', color: 'white' }} type="submit" className='btn btn-outline btn-xs' value='Add' id="" />
                         </form>
+
                         <br />
                         {
                             orderQuantity > purchase.Minimum && orderQuantity <= purchase.available ?

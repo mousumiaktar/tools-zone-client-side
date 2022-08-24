@@ -4,13 +4,17 @@ import icon1 from '../../images/icons/icon1.png';
 import icon2 from '../../images/icons/icon2.png';
 import icon3 from '../../images/icons/icon3.png';
 import icon4 from '../../images/icons/icon4.png';
+import summeryimg from '../../images/summery/summery.png';
 
 const Summery = () => {
     return (
-        <div className='mt-10 mb-15 max-w-7xl mx-auto px-12'>
-            <h2 className='text-xl text-purple-600 text-center font-bold'>MILLIONS BUSINESS TRUST US</h2>
+        <div className='mt-10 mb-15  px-12 full-summery'>
+            <h2 style={{color:'#2F3B69'}} className='text-4xl text-center font-bold'>MILLIONS BUSINESS TRUST US</h2>
             <p className='text-center'>TRY TO UNDERSTAND USERS EXPECTATION</p>
             <div class="divider">Or</div>
+            <div>
+                <img src={summeryimg} alt="" />
+            </div>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5' id="summery-container">
                 <div className='single-summery'>
                     <img className='w-10 mx-auto' src={icon1} alt="" />

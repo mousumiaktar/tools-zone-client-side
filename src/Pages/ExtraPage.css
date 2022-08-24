@@ -1,0 +1,72 @@
+.hero-area {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 100px;
+    margin: 30px 0 100px 0;
+}
+
+.hero-textarea {
+    margin-left: 125px;
+}
+
+.hero-textarea h2 {
+    color: #1586B5;
+}
+
+.text-area2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+}
+
+.text-area2 h1 {
+    color: #1586B5;
+}
+
+.text-area2 button {
+    background-color: #2F3B69;
+    color: #fff;
+    padding: 2px 8px;
+    margin-top: 5px;
+}
+.text-area2 button:hover {
+    background-color: #2F3B69;
+    color: #01F4FC;
+}
+
+.image-1 {
+    width: 300px;
+    position: relative;
+}
+
+.image-2 {
+    width: 300px;
+    position: absolute;
+    margin-top: -35px;
+    margin-left: 80px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .hero-area {
+        display: block;
+    }
+    .text-area2 {
+        display: block;
+    }
+    .hero-textarea {
+        margin-left: 30px;
+        margin-right: 20px;
+    }
+    .image-area{
+        margin-top: 10px;
+    }
+    .image-1 {
+        width: 200px;
+       margin-left: 30px;
+    }
+    .image-2 {
+        width: 200px;
+    }
+}

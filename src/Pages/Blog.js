@@ -4,7 +4,7 @@ const Blog = () => {
     return (
         <div className='mt-10 mb-15 max-w-7xl mx-auto px-12'>
             <div className='mb-5'>
-                <h2 className='text-xl text-purple-900 font-bold'>Q.1. How will you improve the performance of a React Application?</h2>
+                <h2 style={{color:'#1586B5'}} className='text-xl font-bold'>Q.1. How will you improve the performance of a React Application?</h2>
                 <p>(a)Keeping component state local where necessary</p>
                 <p>(b) Memoizing React components to prevent unnecessary re-renders</p>
                 <p>(c)Code-splitting in React using dynamic import</p>
@@ -12,7 +12,7 @@ const Blog = () => {
                 <p>(e)Lazy loading images in React</p>
             </div>
             <div className='mb-5'>
-                <h2 className='text-xl text-purple-900 font-bold'>Q.2. What are the different ways to manage a state in a React application?</h2>
+                <h2 style={{color:'#1586B5'}} className='text-xl font-bold'>Q.2. What are the different ways to manage a state in a React application?</h2>
                 <h5 className='text-sxl text-purple-900'>There are four main types of state you need to properly manage in your React apps:</h5>
                 <p>
                     <b><u>Local (UI) state  Local state:</u></b> Local (UI) state  Local state is data we manage in one or another component.
@@ -33,19 +33,19 @@ const Blog = () => {
                 </p>
             </div>
             <div className='mb-5'>
-                <h2 className='text-xl text-purple-900 font-bold'>Q.3. How does prototypical inheritance work?</h2>
+                <h2 style={{color:'#1586B5'}} className='text-xl font-bold'>Q.3. How does prototypical inheritance work?</h2>
                 <p>
                     The Prototypal Inheritance is a feature in javascript used to add methods and properties in objects. It is a method by which an object can inherit the properties and methods of another object. Traditionally, in order to get and set the [[Prototype]] of an object, we use Object.getPrototypeOf and Object.
                 </p>
             </div>
             <div className='mb-10'>
-                <h2 className='text-xl text-purple-900 font-bold'>Q.4. What is a unit test? Why should write unit tests?</h2>
+                <h2 style={{color:'#1586B5'}} className='text-xl font-bold'>Q.4. What is a unit test? Why should write unit tests?</h2>
                 <p>
                     The main objective of unit testing is to isolate written code to test and determine if it works as intended. Unit testing is an important step in the development process, because if done correctly, it can help detect early flaws in code which may be more difficult to find in later testing stages.
                 </p>
             </div>
             <div className='mb-10'>
-                <h2  className='text-xl text-purple-900 font-bold'> Q.5.Why you do not set the state directly in React. For example, if you have const [products, setProducts] = useState([]). Why you do not set products = [...] instead, you use the setProducts</h2>
+                <h2 style={{color:'#1586B5'}}  className='text-xl font-bold'> Q.5.Why you do not set the state directly in React. For example, if you have const [products, setProducts] = useState([]). Why you do not set products = [...] instead, you use the setProducts</h2>
                 <p>
                 We should never update the state directly because of the following reasons:
                 If you update it directly, calling the setState() afterward may just replace the update you made.
