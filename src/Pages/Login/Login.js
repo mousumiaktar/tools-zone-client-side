@@ -117,8 +117,8 @@ const Login = () => {
                         className="btn btn-outline"
                     >Continue with google</button>
                     <div className='pt-7 flex flex-row justify-between items-center'>
-                        <button style={{background:'#1586B5'}} onClick={() => signInWithEmailAndPassword('admin@gmail.com','112233')} className='py-2 px-4 text-slate-50 mr-5 rounded-md'>Demo Login - Admin</button>
-                        <button style={{background:'#1586B5'}} onClick={() => signInWithEmailAndPassword('mou@gmail.com', '123456')} className='py-2 px-4 text-slate-50 rounded-md'>Demo Login - User</button>
+                        <button onClick={() => signInWithEmailAndPassword('admin@gmail.com','112233')} className='bg-base-100 py-2 px-4 mr-5 rounded-md'>Demo Login - Admin</button>
+                        <button onClick={() => signInWithEmailAndPassword('mou@gmail.com', '123456')} className='bg-base-100 py-2 px-4 rounded-md'>Demo Login - User</button>
                     </div>
                 </div>
             </div>
