@@ -3,13 +3,13 @@ import React, { useEffect, useState } from 'react';
 const MakeAdmin = () => {
     const [users, setUsers] = useState([]);
     useEffect(() => {
-        fetch('https://stormy-anchorage-56703.herokuapp.com/user')
+        fetch('https://tools-zone.onrender.com/user')
         .then(res => res.json())
         .then(data => setUsers(data));
     },[users]);
     console.log(users);
     const makeAdmin = email => {
-        fetch(`https://stormy-anchorage-56703.herokuapp.com/user/admin/${email}`, {
+        fetch(`https://tools-zone.onrender.com/user/admin/${email}`, {
             method: "PUT"
         }
         )

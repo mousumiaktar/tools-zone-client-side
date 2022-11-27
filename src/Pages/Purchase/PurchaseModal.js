@@ -18,7 +18,7 @@ const PurchaseModal = ({ details, orderQuantity }) => {
 
         }
         console.log(orderDetails);
-        const url = 'https://stormy-anchorage-56703.herokuapp.com/orders'
+        const url = 'https://tools-zone.onrender.com/orders'
         fetch(url, {
             method: 'POST',
             headers: {

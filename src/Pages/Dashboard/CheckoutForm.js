@@ -13,7 +13,7 @@ const CheckoutForm = ({ details }) => {
     const { _id, price, productName } = details;
 
     useEffect(() => {
-        fetch('https://stormy-anchorage-56703.herokuapp.com/create-payment-intent', {
+        fetch('https://tools-zone.onrender.com/create-payment-intent', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json',
@@ -77,7 +77,7 @@ const CheckoutForm = ({ details }) => {
             orders:_id,
             transactionId: paymentIntent._id
         }
-           fetch(`https://stormy-anchorage-56703.herokuapp.com/orders/${_id}`,{
+           fetch(`https://tools-zone.onrender.com/orders/${_id}`,{
                method: 'PATCH',
                headers: {
                 'content-type': 'application/json',

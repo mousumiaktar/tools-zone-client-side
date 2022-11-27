@@ -11,7 +11,7 @@ const Purchase = () => {
     const orderQuantity = parseInt(total)
     console.log(orderQuantity);
     useEffect(() => {
-        const url = `https://stormy-anchorage-56703.herokuapp.com/tool/${purchaseId}`
+        const url = `https://tools-zone.onrender.com/tool/${purchaseId}`
 
         fetch(url)
             .then(res => res.json())

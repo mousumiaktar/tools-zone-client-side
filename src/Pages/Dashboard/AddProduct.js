@@ -15,7 +15,7 @@ const AddProduct = () => {
             img: e.target.img.value
         }
 
-        fetch('https://stormy-anchorage-56703.herokuapp.com/tool', {
+        fetch('https://tools-zone.onrender.com/tool', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

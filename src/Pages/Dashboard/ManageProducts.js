@@ -4,7 +4,7 @@ import Loading from '../Shared/Loading/Loading';
 
 const ManageProducts = () => {
 
-    const { data: product, isLoading } = useQuery('orders', () => fetch('https://stormy-anchorage-56703.herokuapp.com/tool').then(res => res.json()))
+    const { data: product, isLoading } = useQuery('orders', () => fetch('https://tools-zone.onrender.com/tool').then(res => res.json()))
 
     if (isLoading) {
         return <Loading />
@@ -13,7 +13,7 @@ const ManageProducts = () => {
     const handleDelete = id => {
         const sure = window.confirm('Are You Sure?')
         if (sure) {
-            const url = `https://stormy-anchorage-56703.herokuapp.com/tool/${id}`
+            const url = `https://tools-zone.onrender.com/tool/${id}`
             fetch(url, {
                 method: 'DELETE',
             })

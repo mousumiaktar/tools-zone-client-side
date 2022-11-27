@@ -8,7 +8,7 @@ import Loading from '../Shared/Loading/Loading';
 
 const Reviews = () => {
 
-    const { data, isLoading } = useQuery('reviews', () => fetch('https://stormy-anchorage-56703.herokuapp.com/reviews').then(res => res.json()))
+    const { data, isLoading } = useQuery('reviews', () => fetch('https://tools-zone.onrender.com/reviews').then(res => res.json()))
 
     if (isLoading) {
         return <Loading />

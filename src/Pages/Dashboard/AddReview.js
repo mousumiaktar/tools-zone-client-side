@@ -13,7 +13,7 @@ const AddReview = () => {
             review: reviewValue,
             rating: rating
         };
-        fetch('https://stormy-anchorage-56703.herokuapp.com/reviews', {
+        fetch('https://tools-zone.onrender.com/reviews', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

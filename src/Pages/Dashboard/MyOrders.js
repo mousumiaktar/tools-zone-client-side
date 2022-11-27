@@ -11,7 +11,7 @@ const MyOrders = () => {
 
     useEffect(() => {
         if (user) {
-            fetch(`https://stormy-anchorage-56703.herokuapp.com/orders?email=${user?.email}`, {
+            fetch(`https://tools-zone.onrender.com/orders?email=${user?.email}`, {
                 method: 'GET',
                 headers: {
                     'authorization': `Bearer ${localStorage.getItem('accessToken')}`
@@ -39,7 +39,7 @@ const MyOrders = () => {
     const handleDelete = id => {
         const sure = window.confirm('Do you want to delete?')
         if(sure){
-            const url = `https://stormy-anchorage-56703.herokuapp.com/orders/${id}`
+            const url = `https://tools-zone.onrender.com/orders/${id}`
             fetch(url, {
                 method: 'DELETE',
             })

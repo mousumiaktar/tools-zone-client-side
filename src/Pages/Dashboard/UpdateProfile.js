@@ -18,7 +18,7 @@ const UpdateProfile = () => {
         }
 
         console.log(updatedInformation);
-        fetch(`https://stormy-anchorage-56703.herokuapp.com/users/${user?.email}`, {
+        fetch(`https://tools-zone.onrender.com/users/${user?.email}`, {
             method: 'PUT',
             headers: {
                 authorization: `Bearer ${localStorage.getItem('accessToken')}`,
