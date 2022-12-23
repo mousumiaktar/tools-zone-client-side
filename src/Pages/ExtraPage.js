@@ -10,7 +10,7 @@ const ExtraPage = () => {
             <div className='hero-area'>
                 <div className='hero-textarea'>
                     <h2 className='text-2xl'>Tools Overview in <b>Tools-Zone</b></h2>
-                    <p>A screwdriver is a tool, manual or powered, used for driving screws. A typical simple screwdriver has a handle and a shaft, ending in a tip the user puts into the screw head before turning the handle. This form of the screwdriver has been replaced in many workplaces and homes with a more modern and versatile tool, a power drill, as they are quicker, easier, and can also drill holes.</p>
+                    <p className='mb-5 md:mb-0 lg-mb-0'>A screwdriver is a tool, manual or powered, used for driving screws. A typical simple screwdriver has a handle and a shaft, ending in a tip the user puts into the screw head before turning the handle. This form of the screwdriver has been replaced in many workplaces and homes with a more modern and versatile tool, a power drill, as they are quicker, easier, and can also drill holes.</p>
                     <hr />
                     <div className='text-area2'>
                         <div>
@@ -19,7 +19,7 @@ const ExtraPage = () => {
                         <hr />
                         <button>read more</button>
                         </div>
-                        <div className='text-area3'>
+                        <div className='text-area3 mt-5 md:mt-0 lg-mt-0 mb-8 md:mb-0 lg:mb-0'>
                             <h1><b>Rapid Production</b></h1>
                             <p>Specialized and annual production capacity of 1.95 million meters.Specialized and annual production capacity of 1.95 million meters.</p>
                             <hr />
@@ -28,8 +28,8 @@ const ExtraPage = () => {
                     </div>
                 </div>
                 <div className='image-area'>
-                    <img className='image-1' src={screwdriver} alt="" />
-                    <img className='image-2' src={screwdriver2} alt="" />
+                    <img className='image-1 rounded-md' src={screwdriver} alt="" />
+                    <img className='image-2 rounded-md' src={screwdriver2} alt="" />
                 </div>
             </div>
         </div>

@@ -36,7 +36,7 @@ const Purchase = () => {
 
 
     return (
-        <div class="mt-10 mb-15 max-w-7xl mx-auto px-12">
+        <div class="mt-10 mb-15 max-w-7xl mx-auto md:px-12 lg:px-12">
             <div class="hero-content flex-col lg:flex-row">
                 <img className='rounded' src={purchase.img} />
                 <div>
@@ -52,7 +52,7 @@ const Purchase = () => {
                         <p className='mt-5'>Add Quantity</p>
 
                         <form onSubmit={handleQuantity}>
-                            <input style={{ background: '#1586B5' }} className='border rounded mr-5' type="number" name="quantity" id="" />
+                            <input  className='border border-gray-900 rounded mr-5 outline-0 bg-transparent' type="number" name="quantity" id="" />
 
                             <input style={{ background: '#2F3B69', color: 'white' }} type="submit" className='btn btn-outline btn-xs' value='Add' id="" />
                         </form>

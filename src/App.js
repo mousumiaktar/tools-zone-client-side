@@ -40,6 +40,7 @@ function App() {
               <Purchase></Purchase>
             </RequireAuth>}>
           </Route>
+
           <Route path="/dashboard" element={
             <RequireAuth>
               <Dashboard></Dashboard>
@@ -59,6 +60,7 @@ function App() {
               </RequireAdmin>
             }></Route>
           </Route>
+          
           <Route path="/login" element={<Login></Login>}></Route>
           <Route path="/signup" element={<SignUp></SignUp>}></Route>
           <Route path="*" element={<NotFound></NotFound>}></Route>

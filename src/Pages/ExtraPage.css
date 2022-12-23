@@ -56,7 +56,7 @@
 
 @media screen and (max-width: 600px) {
     .main-area{
-        margin: 0 50px;
+        margin: 0 10px;
     }
     .hero-area {
         display: block;
